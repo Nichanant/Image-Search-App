@@ -115,8 +115,13 @@ form{
     color: var(--textColor);
 }
 
-.search-card a:hover{  
-    background-image: linear-gradient(white 10%,var(--contrastColor) 90%);  
+/* .search-card a:hover{  
+    color: var(--contrastColor);  
+} */
+.search-card:hover{
+    background-color: var(--contrastColor);
+    transition: all 0.4s ease-in-out;
+
 }
 
 .btnContainer{
